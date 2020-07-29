@@ -1,2 +1,2 @@
-# UndergroundEscape
- game protoype and development coursework
+# UnderGroundEscape
+ game prototype coursework
