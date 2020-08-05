@@ -3,10 +3,8 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
 	//Public items to check to alter player movement
-    [SerializeField]
-	private float playerSpeed;
-    [SerializeField]
-	private float jumpHeight;
+	public float playerSpeed;
+	public float jumpHeight;
 
 	////Items to check the player has the ability to jump
 	public Transform groundCheck;
@@ -41,24 +39,36 @@ public class PlayerMovement : MonoBehaviour {
 	}
 
 	void FixedUpdate (){
-	//	/*Check whether the player is grounded by getting the position of a empty game object that 
-	//	 * is applied to the player. You then can define the size of the radius that us used from that position
-	//	 * to the other objects. The objects are contained in a layer. This layer can contain a number of objects. We
-	//	 * can use a layer of ground objects.
-	//	 */
-		isGrounded = Physics2D.OverlapCircle (groundCheck.position, radiusToGround, groundItems);
+        //Use the horizontal axis to have the character move
+        if (Input.GetAxis("Horizontal") != 0)
+        {
+            GetComponent<Rigidbody2D>().velocity = new Vector2(playerSpeed * Input.GetAxis("Horizontal"), playerVelocity.y);
+
+            //set movement speed that will be used for the transitions of the player states in the animations
+            movementSpeed = Mathf.Abs(Input.GetAxis("Horizontal"));
+        }
+
+        //update the animation settings
+        playerAnimator.SetFloat("speed", movementSpeed);
+
+    }
+	
+	// Update is called once per frame
+	void Update () {
+
+        //	/*Check whether the player is grounded by getting the position of a empty game object that 
+        //	 * is applied to the player. You then can define the size of the radius that us used from that position
+        //	 * to the other objects. The objects are contained in a layer. This layer can contain a number of objects. We
+        //	 * can use a layer of ground objects.
+        //	 */
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, radiusToGround, groundItems);
 
         //allow player to jump with an animation
         isJumping = !isGrounded;
         playerAnimator.SetBool("isJumping", isJumping);
 
-	}
-	
-	// Update is called once per frame
-	void Update () {
-
-		//Check if grounded so double jump is reset
-		if (isGrounded) {
+        //Check if grounded so double jump is reset
+        if (isGrounded) {
 			isDoubleJump = false;
 		}
 
@@ -77,17 +87,6 @@ public class PlayerMovement : MonoBehaviour {
 			CharacterJump ();
 			isDoubleJump = true;
 		}
-
-		//Use the horizontal axis to have the character move
-		if (Input.GetAxis("Horizontal")!=0){
-			GetComponent<Rigidbody2D>().velocity = new Vector2(playerSpeed*Input.GetAxis("Horizontal"),playerVelocity.y);
-
-            //set movement speed that will be used for the transitions of the player states in the animations
-            movementSpeed = Mathf.Abs(Input.GetAxis("Horizontal"));
-		}
-
-        //update the animation settings
-        playerAnimator.SetFloat("speed", movementSpeed);
 	}
 
 	private void CharacterJump(){
