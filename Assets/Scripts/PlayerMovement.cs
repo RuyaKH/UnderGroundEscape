@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour {
         //	 * can use a layer of ground objects.
         //	 */
         isGrounded = Physics2D.IsTouchingLayers(this.gameObject.GetComponent<Collider2D>(), groundItems);
-        Debug.Log("Player isGrounded = " + isGrounded);
+        //Debug.Log("Player isGrounded = " + isGrounded);
 
         //allow player to jump with an animation
         isJumping = !isGrounded;
@@ -76,7 +76,7 @@ public class PlayerMovement : MonoBehaviour {
 
 		//Get the position of the player at the first step
 		playerVelocity = GetComponent<Rigidbody2D>().velocity;
-        Debug.Log("The players movement " + playerVelocity);
+        //Debug.Log("The players movement " + playerVelocity);
 
 		//Get the jump axis and have the character jump - using get button instead of axis as we need specific key down actions
 		if (Input.GetButtonDown("Jump") && isGrounded){
