@@ -16,7 +16,7 @@ public class CountLife : MonoBehaviour
     void Start()
     {
         //Set the score to zero
-        lifeValue = 3;
+        lifeValue = 1;
         UpdateLifeText();
 
     }
@@ -36,16 +36,12 @@ public class CountLife : MonoBehaviour
         //Update the text of the score in the UI
         UpdateLifeText();
 
-        //Check if player has won
-        /**
+        //Check if player has lost lives
+        
 		if (loseScore >= lifeValue) {
-		//  Update the playerWin with the public player type variable.
-			ApplicationModel.playerWin = playerType;
-
 			//Open the game over scene
 			SceneManager.LoadScene("GameOver");
 		}
-		**/
     }
 
     //Update the score in the game
