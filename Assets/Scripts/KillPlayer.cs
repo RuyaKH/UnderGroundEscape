@@ -3,6 +3,7 @@ using System.Collections;
 
 public class KillPlayer : MonoBehaviour
 {
+  // CameraControl camera;
     [SerializeField]
     private GameObject currentCheckpoint;
     [SerializeField]
@@ -15,6 +16,7 @@ public class KillPlayer : MonoBehaviour
         if (collider.name == "Jake")
         {
             player.transform.position = currentCheckpoint.transform.position;
+           // camera.reset();
         }
     }
 }
