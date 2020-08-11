@@ -33,6 +33,8 @@ public class PlatformGenerator : MonoBehaviour
             int lastPlatformHeight = Mathf.CeilToInt(transform.position.y);
             int brokenChance = Random.Range(0, 500 - lastPlatformHeight);
 
+            //int transformX = transform.position.x + platformWidth + distanceBetweenX;
+
             transform.position = new Vector3(transform.position.x + distanceBetweenX, transform.position.y + platformHeight + distanceBetweenY, transform.position.z);
 
             if (brokenChance == 1)
