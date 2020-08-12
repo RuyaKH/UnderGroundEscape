@@ -7,19 +7,24 @@ public class ScoreTrigger : MonoBehaviour {
 	[SerializeField]
 	private PlayerMovement pm;
 
+    int ColNum = 0;
+
 	//Check if ball is over the line and update score value
 	void OnTriggerEnter2D (Collider2D PlatformCheck){
 		Debug.Log ("Player on platform");
 		Debug.Log (PlatformCheck.name);
 
         //Check to see if it is the player that has passed the line
-        for (int i = 0; i < 1; i++)
+
+        if (PlatformCheck.name == "Jake" && ColNum==0)
         {
-            if (PlatformCheck.name == "Jake")
-            {
-                cs.UpdateScoreValue(5);
-            }
+            cs.UpdateScoreValue(5);                
             Debug.Log(gameObject.name);
+            ColNum++;
+        }
+        else
+        {
+            ColNum++;
         }
 	
 	}
