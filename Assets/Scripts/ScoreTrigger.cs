@@ -12,11 +12,15 @@ public class ScoreTrigger : MonoBehaviour {
 		Debug.Log ("Player on platform");
 		Debug.Log (PlatformCheck.name);
 
-		//Check to see if it is the player that has passed the line
-		if (PlatformCheck.name == "Jake") {
-			cs.UpdateScoreValue (5);
-		}
-		Debug.Log (gameObject.name);
+        //Check to see if it is the player that has passed the line
+        for (int i = 0; i < 2; i++)
+        {
+            if (PlatformCheck.name == "Jake")
+            {
+                cs.UpdateScoreValue(5);
+            }
+            Debug.Log(gameObject.name);
+        }
 	
 	}
 }
