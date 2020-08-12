@@ -19,8 +19,11 @@ public class Shake : MonoBehaviour
 
    void Update()
    {
-        
-        
+     /*   if(Input.GetKeyDown(KeyCode.T))
+        {
+            shake(0.1f, 0.2f);
+        }
+    */ 
             countdown -= Time.deltaTime;
             if (countdown < 0)
             {
