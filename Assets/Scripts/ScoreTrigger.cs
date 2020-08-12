@@ -13,7 +13,7 @@ public class ScoreTrigger : MonoBehaviour {
 		Debug.Log (PlatformCheck.name);
 
         //Check to see if it is the player that has passed the line
-        for (int i = 0; i < 2; i++)
+        for (int i = 0; i < 1; i++)
         {
             if (PlatformCheck.name == "Jake")
             {
