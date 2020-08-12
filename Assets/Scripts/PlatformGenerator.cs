@@ -5,6 +5,8 @@ public class PlatformGenerator : MonoBehaviour
 {
     public GameObject platform;
     public GameObject brokenPlatform;
+    public GameObject bluePlatform;
+    public float yToSwitchAt;
     public Transform generationPoint;
     public float distanceBetweenY;
     public float distanceBetweenX;
@@ -25,6 +27,16 @@ public class PlatformGenerator : MonoBehaviour
 
     void Update()
     {
+        GameObject platformToPlace = null;
+
+        if (transform.position.y > yToSwitchAt)
+        {
+            platformToPlace = bluePlatform;
+        }
+        else
+        {
+            platformToPlace = platform;
+        }
         if (transform.position.y < generationPoint.position.y)
         {
             distanceBetweenY = Random.Range(yMin, yMax);
@@ -32,8 +44,6 @@ public class PlatformGenerator : MonoBehaviour
 
             int lastPlatformHeight = Mathf.CeilToInt(transform.position.y);
             int brokenChance = Random.Range(0, 500 - lastPlatformHeight);
-
-            //int transformX = transform.position.x + platformWidth + distanceBetweenX;
 
             transform.position = new Vector3(distanceBetweenX, transform.position.y + platformHeight + distanceBetweenY, transform.position.z);
 
@@ -43,7 +53,7 @@ public class PlatformGenerator : MonoBehaviour
             }
             else
             {
-                Instantiate(platform, transform.position, transform.rotation);
+                Instantiate(platformToPlace, transform.position, transform.rotation);
             }
         }
     }
