@@ -747,21 +747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25a181ff67bd98440985b41ce1b51c02, type: 3}
-<<<<<<< HEAD
 --- !u!1 &162094973
-=======
---- !u!4 &199075722 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 68138283445296008, guid: 85d744ad27523e1438260588e5f2dcb9, type: 3}
-  m_PrefabInstance: {fileID: 7729862977379749784}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &212346685 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5901383104423981783, guid: edd6fad91be2c394f92b344ebb3022ab, type: 3}
-  m_PrefabInstance: {fileID: 1319395004}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &218504582
->>>>>>> parent of ed35123... Revert "Marks Update."
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -809,24 +795,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cfd38050189a0a48b3be3991a15683e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   cl: {fileID: 1008201394}
   pm: {fileID: 1881883197}
 --- !u!114 &162094976
 MonoBehaviour:
-=======
-  platform: {fileID: 0}
-  brokenPlatform: {fileID: 5624313547482646667}
-  generationPoint: {fileID: 218504584}
-  distanceBetweenY: 0
-  distanceBetweenX: 0
-  yMin: 0
-  yMax: 0
-  xMin: 0
-  xMax: 0
---- !u!4 &218504584
-Transform:
->>>>>>> parent of ed35123... Revert "Marks Update."
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5108,75 +5080,8 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 1b0f5a2a4e8d31141b17739735967f9a, type: 3}
 --- !u!1 &1599641789
-=======
-  m_SourcePrefab: {fileID: 100100000, guid: edd6fad91be2c394f92b344ebb3022ab, type: 3}
---- !u!1 &1305007913
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1305007914}
-  m_Layer: 0
-  m_Name: BluePlats
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1305007914
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1305007913}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1763964, y: 63.149, z: -0.96532726}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 5624313547482646668}
-  - {fileID: 199075722}
-  m_Father: {fileID: 1716221455}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1312648801
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1312648802}
-  m_Layer: 0
-  m_Name: PlatformGenerationPointBlue
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1312648802
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312648801}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.262, y: 71.729996, z: 8.953384}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 519420032}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1313732542
->>>>>>> parent of ed35123... Revert "Marks Update."
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6985,7 +6890,6 @@ PrefabInstance:
       value: blue slide platform
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 940c003e170336b4d993daae1b8778ce, type: 3}
 --- !u!4 &7729862977379749785 stripped
 Transform:
@@ -7085,6 +6989,4 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-=======
->>>>>>> parent of ed35123... Revert "Marks Update."
   m_SourcePrefab: {fileID: 100100000, guid: 85d744ad27523e1438260588e5f2dcb9, type: 3}
