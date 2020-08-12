@@ -11,6 +11,7 @@ public class CountLife : MonoBehaviour
     public int lifeValue;
     [SerializeField]
     private int loseScore;
+    public int scoreValue;
 
     // Use this for initialization
     void Start()
@@ -40,7 +41,7 @@ public class CountLife : MonoBehaviour
         
 		if (loseScore >= lifeValue) {
             //Open the game over scene
-            PlayerPrefs.SetInt("Score", 0);
+            PlayerPrefs.SetInt("Score", scoreValue);
 			SceneManager.LoadScene("GameOver");
 		}
     }

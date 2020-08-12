@@ -7,7 +7,7 @@ public class CountScore : MonoBehaviour {
 
 	public Text scoreText;
 	[SerializeField]
-	private int scoreValue;
+	public int scoreValue;
 	[SerializeField]
 	private int winScore;
 	[SerializeField]
