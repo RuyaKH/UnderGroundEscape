@@ -2,19 +2,22 @@
 using System.Collections;
 
 public class ScoreTrigger : MonoBehaviour {
-	[SerializeField]
+
 	private CountScore cs;
-	[SerializeField]
+
 	private PlayerMovement pm;
 
     int ColNum = 0;
 
-	//Check if ball is over the line and update score value
+    void Start()
+    {
+        cs = FindObjectOfType<CountScore>();
+        pm = FindObjectOfType<PlayerMovement>();
+    }
+
 	void OnTriggerEnter2D (Collider2D PlatformCheck){
 		Debug.Log ("Player on platform");
 		Debug.Log (PlatformCheck.name);
-
-        //Check to see if it is the player that has passed the line
 
         if (PlatformCheck.name == "Jake" && ColNum==0)
         {
