@@ -39,7 +39,8 @@ public class CountLife : MonoBehaviour
         //Check if player has lost lives
         
 		if (loseScore >= lifeValue) {
-			//Open the game over scene
+            //Open the game over scene
+            PlayerPrefs.SetInt("Score", 0);
 			SceneManager.LoadScene("GameOver");
 		}
     }

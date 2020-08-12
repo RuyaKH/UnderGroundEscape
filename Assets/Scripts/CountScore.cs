@@ -18,6 +18,7 @@ public class CountScore : MonoBehaviour {
 		//Set the score to zero
 		scoreValue = 0;
 		UpdateScoreText ();
+        PlayerPrefs.SetInt("Score", scoreValue);
 	
 	}
 	
@@ -34,8 +35,8 @@ public class CountScore : MonoBehaviour {
 		//Update the text of the score in the UI
 		UpdateScoreText ();
 
-		//Check if player has won
-		/**
+        //Check if player has won
+        /**
 		if (scoreValue >= winScore) {
 			//Update the playerWin with the public player type variable.
 			ApplicationModel.playerWin = playerType;
@@ -44,7 +45,8 @@ public class CountScore : MonoBehaviour {
 			SceneManager.LoadScene("GameOver");
 		}
 		**/
-	}
+        PlayerPrefs.SetInt("Score", scoreValue);
+    }
 
 	//Update the score in the game
 	void UpdateScoreText (){
@@ -55,7 +57,8 @@ public class CountScore : MonoBehaviour {
 	void ResetScore (){
 		scoreValue = 0;
 		UpdateScoreText();
-	}
+        PlayerPrefs.SetInt("Score", scoreValue);
+    }
 
 
 }
