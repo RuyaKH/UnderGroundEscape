@@ -27,6 +27,10 @@ public class PlayerMovement : MonoBehaviour {
 	private float movementSpeed = 0;
 	private bool isJumping = false;
 
+    //left and right control
+    //private Vector3 currentScale;
+    //private
+
 	// Use this for initialization
 	void Start() {
 
@@ -34,7 +38,6 @@ public class PlayerMovement : MonoBehaviour {
 		playerSpeed = 5;
 		jumpHeight = 5;
 
-		speed = 5;
 		boostTimer = 0;
 		boosting = false;
 
@@ -62,9 +65,10 @@ public class PlayerMovement : MonoBehaviour {
 		if (boosting)
 		{
 			boostTimer += Time.deltaTime;
-			if (boostTimer >= 3)
+			if (boostTimer >= 5)
             {
-				speed = 5;
+				playerSpeed = 5;
+                jumpHeight = 5;
 				boostTimer = 0;
 				boosting = false;
 			}
@@ -80,7 +84,10 @@ public class PlayerMovement : MonoBehaviour {
 		if (other.tag == "speedboost")
 		{
 			boosting = true;
-			speed = 10;
+			playerSpeed = 10;
+            jumpHeight = 10;
+            Destroy(other.gameObject);
+            Debug.Log("zooommmm");
 		}
 	}
 	// Update is called once per frame
