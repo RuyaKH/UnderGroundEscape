@@ -35,7 +35,7 @@ public class PlatformGenerator : MonoBehaviour
 
             //int transformX = transform.position.x + platformWidth + distanceBetweenX;
 
-            transform.position = new Vector3(transform.position.x + distanceBetweenX, transform.position.y + platformHeight + distanceBetweenY, transform.position.z);
+            transform.position = new Vector3(distanceBetweenX, transform.position.y + platformHeight + distanceBetweenY, transform.position.z);
 
             if (brokenChance == 1)
             {
