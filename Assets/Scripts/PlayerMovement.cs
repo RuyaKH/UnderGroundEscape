@@ -65,7 +65,7 @@ public class PlayerMovement : MonoBehaviour {
 		if (boosting)
 		{
 			boostTimer += Time.deltaTime;
-			if (boostTimer >= 5)
+			if (boostTimer >= 3)
             {
 				playerSpeed = 5;
                 jumpHeight = 5;

@@ -20,7 +20,7 @@ public class CountScore : MonoBehaviour {
 	void Start () {
         //Set the score to zero
         GameObject score = GameObject.Find("PlayerScoreNum");
-        scoreText = score.GetComponent<scoreText>();
+        scoreText = score.GetComponent<Text>();
         DontDestroyOnLoad(gameObject);
         Debug.Log(gameObject.name + " start");
     }
@@ -52,44 +52,35 @@ public class CountScore : MonoBehaviour {
             Destroy(gameObject);
         }
     }
-	
-	//// Update is called once per frame
-	//void Update () {
-	
-	//}
 
-	////Alter the score
-	//public void UpdateScoreValue (int scoreUpdate){
-	//	//Update the score
-	//	scoreValue += scoreUpdate;
+    // Update is called once per frame
+    void Update()
+    {
 
-	//	//Update the text of the score in the UI
-	//	UpdateScoreText ();
+    }
 
- //       //Check if player has won
- //       /**
-	//	if (scoreValue >= winScore) {
-	//		//Update the playerWin with the public player type variable.
-	//		ApplicationModel.playerWin = playerType;
+    //Alter the score
+    public void UpdateScoreValue(int scoreUpdate)
+    {
+        //Update the score
+        scoreValue += scoreUpdate;
 
-	//		//Open the game over scene
-	//		SceneManager.LoadScene("GameOver");
-	//	}
-	//	**/
- //       PlayerPrefs.SetInt("Score", scoreValue);
- //   }
+        //Update the text of the score in the UI
+        UpdateScoreText();
+    }
 
-	////Update the score in the game
-	//void UpdateScoreText (){
-	//	scoreText.text = " " + scoreValue;
-	//}
+    //Update the score in the game
+    void UpdateScoreText()
+    {
+        scoreText.text = " " + scoreValue;
+    }
 
-	////Reset score to zero
-	//void ResetScore (){
-	//	scoreValue = 0;
-	//	UpdateScoreText();
- //       PlayerPrefs.SetInt("Score", scoreValue);
- //   }
+    //Reset score to zero
+    void ResetScore()
+    {
+        scoreValue = 0;
+        UpdateScoreText();
+    }
 
 
 }

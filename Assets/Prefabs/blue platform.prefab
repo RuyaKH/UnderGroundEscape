@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 68138283445296012}
   - component: {fileID: 68138283445296013}
   - component: {fileID: 68138283445296010}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: blue platform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88,8 +88,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c76edb1a7decec43bc8cc24483611b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cs: {fileID: 0}
-  pm: {fileID: 0}
 --- !u!61 &68138283445296012
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -158,7 +156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7761934183833720093}
   - component: {fileID: 7761934183833720092}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: blue round left platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -240,7 +238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7761934184080534236}
   - component: {fileID: 7761934184080534239}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: blue round right platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,7 +320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7761934184546372404}
   - component: {fileID: 7761934184546372407}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: blue square platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,7 +402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7761934185516948452}
   - component: {fileID: 7761934185516948455}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: blue square platform (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -486,7 +484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7761934185754443661}
   - component: {fileID: 7761934185754443660}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: blue square platform (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
