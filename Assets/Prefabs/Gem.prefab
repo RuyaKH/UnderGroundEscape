@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5531776815156978785}
   - component: {fileID: 5531776815156978786}
   - component: {fileID: 5531776815156978784}
+  - component: {fileID: -2573718190084855097}
   m_Layer: 0
   m_Name: Gem
   m_TagString: speedboost
@@ -109,3 +110,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.2063165, y: 3.8948908}
   m_EdgeRadius: 0
+--- !u!114 &-2573718190084855097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5531776815156978787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d260c5039eb9e64485aac2213a10034, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundClip: {fileID: 0}
+  impact: {fileID: 0}
