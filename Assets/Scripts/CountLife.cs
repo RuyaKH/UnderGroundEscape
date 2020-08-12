@@ -15,7 +15,7 @@ public class CountLife : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //Set the score to zero
+        //Set the life to 3
         lifeValue = 1;
         UpdateLifeText();
 
