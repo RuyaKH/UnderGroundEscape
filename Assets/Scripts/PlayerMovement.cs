@@ -63,10 +63,10 @@ public class PlayerMovement : MonoBehaviour {
 		if (boosting)
 		{
 			boostTimer += Time.deltaTime;
-			if (boostTimer >= 5)
+			if (boostTimer >= 3)
             {
 				playerSpeed = 5;
-                jumpHeight = 5;
+                jumpHeight = 9;
 				boostTimer = 0;
 				boosting = false;
 			}
@@ -89,8 +89,8 @@ public class PlayerMovement : MonoBehaviour {
 		if (other.tag == "speedboost")
 		{
 			boosting = true;
-			playerSpeed = 10;
-            jumpHeight = 10;
+			playerSpeed = 8;
+            jumpHeight = 12;
             Destroy(other.gameObject);
             Debug.Log("zooommmm");
 		}
