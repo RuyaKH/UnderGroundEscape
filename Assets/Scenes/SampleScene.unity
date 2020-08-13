@@ -152,11 +152,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4127081505132070154, guid: b0713d389317f244eaa3823ce2d6f2f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.48
+      value: -6.7637653
       objectReference: {fileID: 0}
     - target: {fileID: 4127081505132070154, guid: b0713d389317f244eaa3823ce2d6f2f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 23.28
+      value: 25.29127
       objectReference: {fileID: 0}
     - target: {fileID: 4127081505132070154, guid: b0713d389317f244eaa3823ce2d6f2f4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1120,13 +1120,17 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 1.6382704
       objectReference: {fileID: 0}
+    - target: {fileID: 5681739824860501954, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6787712331126797875, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_Name
       value: lava sound
       objectReference: {fileID: 0}
     - target: {fileID: 6787712331126797875, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1138,7 +1142,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 220.35463
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1185,13 +1189,17 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 1.6658368
       objectReference: {fileID: 0}
+    - target: {fileID: 5681739824860501954, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6787712331126797875, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_Name
       value: lava sound (3)
       objectReference: {fileID: 0}
     - target: {fileID: 6787712331126797875, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1203,7 +1211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 220.35463
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1283,13 +1291,17 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 1.6757083
       objectReference: {fileID: 0}
+    - target: {fileID: 5681739824860501954, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6787712331126797875, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_Name
       value: lava sound (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6787712331126797875, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1301,7 +1313,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 220.35463
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1446,6 +1458,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774613182}
     m_Modifications:
+    - target: {fileID: 1894422895704211590, guid: 512e4c7adab680042995a5996322dba9, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894422895704211590, guid: 512e4c7adab680042995a5996322dba9, type: 3}
+      propertyPath: MinDistance
+      value: 1.840673
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894422895704211590, guid: 512e4c7adab680042995a5996322dba9, type: 3}
+      propertyPath: MaxDistance
+      value: 4.845702
+      objectReference: {fileID: 0}
     - target: {fileID: 3210254307138863639, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.6997988
@@ -1456,7 +1480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3210254307138863639, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 127.05313
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3210254307138863639, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1496,7 +1520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6384907260271058340, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 512e4c7adab680042995a5996322dba9, type: 3}
@@ -1581,7 +1605,6 @@ GameObject:
   - component: {fileID: 486173513}
   - component: {fileID: 486173512}
   - component: {fileID: 486173515}
-  - component: {fileID: 486173516}
   m_Layer: 0
   m_Name: EnemyLava
   m_TagString: Untagged
@@ -1741,102 +1764,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cl: {fileID: 1008201394}
   pm: {fileID: 1881883197}
---- !u!82 &486173516
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 486173508}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!4 &486723919 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
@@ -1943,7 +1870,6 @@ GameObject:
   m_Component:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
-  - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   m_Layer: 9
   m_Name: Main Camera
@@ -1952,14 +1878,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &519420029
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
 --- !u!114 &519420030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2000,7 +1918,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 2.4889488
+  orthographic size: 3.185291
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2339,13 +2257,17 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 1.4281144
       objectReference: {fileID: 0}
+    - target: {fileID: 5681739824860501954, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6787712331126797875, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_Name
       value: lava sound (4)
       objectReference: {fileID: 0}
     - target: {fileID: 6787712331126797875, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2357,7 +2279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 220.35463
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2585,13 +2507,17 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 1.6630993
       objectReference: {fileID: 0}
+    - target: {fileID: 5681739824860501954, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6787712331126797875, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_Name
       value: lava sound (5)
       objectReference: {fileID: 0}
     - target: {fileID: 6787712331126797875, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2603,7 +2529,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 220.35463
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2835,7 +2761,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 815019232}
-  - component: {fileID: 815019234}
   - component: {fileID: 815019233}
   m_Layer: 0
   m_Name: Camera
@@ -2874,14 +2799,6 @@ MonoBehaviour:
   player: {fileID: 1881883196}
   offset: {x: 0, y: 2, z: 0}
   ypos: -5
---- !u!81 &815019234
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815019231}
-  m_Enabled: 1
 --- !u!1001 &820477966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3403,6 +3320,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774613182}
     m_Modifications:
+    - target: {fileID: 1894422895704211590, guid: 512e4c7adab680042995a5996322dba9, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894422895704211590, guid: 512e4c7adab680042995a5996322dba9, type: 3}
+      propertyPath: MaxDistance
+      value: 5.312746
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894422895704211590, guid: 512e4c7adab680042995a5996322dba9, type: 3}
+      propertyPath: MinDistance
+      value: 2.4945283
+      objectReference: {fileID: 0}
     - target: {fileID: 3210254307138863639, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.048439
@@ -3413,7 +3342,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3210254307138863639, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 127.05313
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3210254307138863639, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3453,7 +3382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6384907260271058340, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 512e4c7adab680042995a5996322dba9, type: 3}
@@ -3466,11 +3395,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 68138283445296008, guid: 85d744ad27523e1438260588e5f2dcb9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.8262343
+      value: -2.11
       objectReference: {fileID: 0}
     - target: {fileID: 68138283445296008, guid: 85d744ad27523e1438260588e5f2dcb9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.281269
+      value: -0.27
       objectReference: {fileID: 0}
     - target: {fileID: 68138283445296008, guid: 85d744ad27523e1438260588e5f2dcb9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3622,13 +3551,25 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 2.3084028
       objectReference: {fileID: 0}
+    - target: {fileID: 1894422895704211590, guid: 512e4c7adab680042995a5996322dba9, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894422895704211590, guid: 512e4c7adab680042995a5996322dba9, type: 3}
+      propertyPath: MaxDistance
+      value: 4.472072
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894422895704211590, guid: 512e4c7adab680042995a5996322dba9, type: 3}
+      propertyPath: MinDistance
+      value: 1.9652153
+      objectReference: {fileID: 0}
     - target: {fileID: 3210254307138863639, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3210254307138863639, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.83
+      value: -1.77
       objectReference: {fileID: 0}
     - target: {fileID: 3210254307138863639, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3636,7 +3577,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3210254307138863639, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 127.05313
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6074897144004724560, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_Name
@@ -3644,7 +3585,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6384907260271058340, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8337784132324641354, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5722,13 +5663,17 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 1.5073524
       objectReference: {fileID: 0}
+    - target: {fileID: 5681739824860501954, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6787712331126797875, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_Name
       value: lava sound (2)
       objectReference: {fileID: 0}
     - target: {fileID: 6787712331126797875, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5740,7 +5685,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 220.35463
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalRotation.x
@@ -7130,7 +7075,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748595756}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.672627, y: -3.5720181, z: 63.526566}
+  m_LocalPosition: {x: -3.672627, y: -3.5720181, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1774613182}
@@ -7323,7 +7268,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1774613181}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.672627, y: 3.5720181, z: -63.526566}
+  m_LocalPosition: {x: 3.672627, y: 3.5720181, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1748595757}
@@ -7513,6 +7458,7 @@ GameObject:
   - component: {fileID: 1881883197}
   - component: {fileID: 1881883198}
   - component: {fileID: 1881883204}
+  - component: {fileID: 1881883205}
   m_Layer: 9
   m_Name: Jake
   m_TagString: Player
@@ -7633,7 +7579,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881883196}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2, y: -2.7, z: -1}
+  m_LocalPosition: {x: 2, y: -2.7, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children:
   - {fileID: 673817098}
@@ -7697,6 +7643,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4e6b805223fae34dac74d05a1d3e612, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!81 &1881883205
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881883196}
+  m_Enabled: 1
 --- !u!1 &1941628142
 GameObject:
   m_ObjectHideFlags: 0
@@ -8672,17 +8626,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774613182}
     m_Modifications:
+    - target: {fileID: 1894422895704211590, guid: 512e4c7adab680042995a5996322dba9, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894422895704211590, guid: 512e4c7adab680042995a5996322dba9, type: 3}
+      propertyPath: MaxDistance
+      value: 4.668639
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894422895704211590, guid: 512e4c7adab680042995a5996322dba9, type: 3}
+      propertyPath: MinDistance
+      value: 1.7087842
+      objectReference: {fileID: 0}
     - target: {fileID: 3210254307138863639, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.572627
+      value: -3.8563926
       objectReference: {fileID: 0}
     - target: {fileID: 3210254307138863639, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 55.427982
+      value: 57.43925
       objectReference: {fileID: 0}
     - target: {fileID: 3210254307138863639, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 63.526566
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3210254307138863639, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -8722,7 +8688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6384907260271058340, guid: 512e4c7adab680042995a5996322dba9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 512e4c7adab680042995a5996322dba9, type: 3}
@@ -8735,7 +8701,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5681739824860501954, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: MaxDistance
-      value: 1.4089441
+      value: 1.2622991
+      objectReference: {fileID: 0}
+    - target: {fileID: 5681739824860501954, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5681739824860501954, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
+      propertyPath: MinDistance
+      value: 0.85335493
+      objectReference: {fileID: 0}
+    - target: {fileID: 5681739824860501954, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
+      propertyPath: m_Volume
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 6787712331126797875, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_Name
@@ -8743,7 +8721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6787712331126797875, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8755,7 +8733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 63.526566
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7111739556868662550, guid: 8d24f135d0ea0484d86fea3a5a36bf04, type: 3}
       propertyPath: m_LocalRotation.x
