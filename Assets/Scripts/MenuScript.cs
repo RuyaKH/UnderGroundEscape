@@ -38,7 +38,7 @@ public class MenuScript : MonoBehaviour {
 	}
 
 	public void StartLevel () {
-		SceneManager.LoadScene ("SampleScene");
+		SceneManager.LoadScene ("Tutorial");
 	}
 
 	public void ExitGame () {

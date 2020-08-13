@@ -174,6 +174,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5776439788711523037}
   - component: {fileID: 8747184169944208834}
+  - component: {fileID: 1470792401812761626}
+  - component: {fileID: -8210684230713932048}
   m_Layer: 0
   m_Name: Blue break platform
   m_TagString: Untagged
@@ -211,7 +213,7 @@ PolygonCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -236,6 +238,37 @@ PolygonCollider2D:
       - {x: 1.2973645, y: 0.0777352}
       - {x: 1.3222613, y: 0.35687947}
       - {x: 1.2919656, y: 0.58196634}
+--- !u!251 &1470792401812761626
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5744278556231532991}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!114 &-8210684230713932048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5744278556231532991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f7758801e8538b4fa1bc101339db834, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6326239924990460403
 GameObject:
   m_ObjectHideFlags: 0

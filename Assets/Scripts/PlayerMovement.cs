@@ -50,7 +50,10 @@ public class PlayerMovement : MonoBehaviour {
 	void FixedUpdate() {
 		if (Input.GetAxis("Horizontal") != 0)
 		{
-			GetComponent<Rigidbody2D>().velocity = new Vector2(playerSpeed * Input.GetAxis("Horizontal"), playerVelocity.y);
+            //GetComponent<Rigidbody2D>().velocity = new Vector2(playerSpeed * Input.GetAxis("Horizontal"), playerVelocity.y);
+            Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
+            transform.position += movement * (Time.deltaTime * playerSpeed);
+
 
 			movementSpeed = Mathf.Abs(Input.GetAxis("Horizontal"));
 		}
@@ -60,7 +63,7 @@ public class PlayerMovement : MonoBehaviour {
 		if (boosting)
 		{
 			boostTimer += Time.deltaTime;
-			if (boostTimer >= 3)
+			if (boostTimer >= 5)
             {
 				playerSpeed = 5;
                 jumpHeight = 5;

@@ -12,10 +12,5 @@ public class PauseMenu : MonoBehaviour
         {
             SceneManager.LoadScene("Pause");
         }
-
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-            SceneManager.LoadScene("SampleScene");
-        }
     }
 }
